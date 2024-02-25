@@ -1,0 +1,439 @@
+{
+  "translation": {
+    "payment": {
+      "title": "Оплата",
+      "option_name": "Вариант оплаты",
+      "option_type": {
+        "card": "Карта",
+        "cash": "Наличные"
+      },
+      "dates": "Даты",
+      "price_per_night": "Цена за ночь",
+      "total_price": "Итоговая цена",
+      "button_type": {
+        "card": "Оплатить картой",
+        "cash": "Оплатить наличными"
+      }
+    },
+
+    "errors": {
+      "default": "Что-то пошло не так, попробуйте ещё раз",
+
+      "accommodation_failed_to_get_single": "Не удалось получить информацию об одном жилье",
+      "accommodation_failed_to_get_list": "Не удалось получить список жилья",
+
+      "field_is_required": "Это поле обязательно к заполнению",
+      "enter_valid_email": "Пожалуйста введите верный адрес электронной почты",
+      "enter_valid_phone_number": "Пожалуйста, введите действующий телефонный номер",
+      "password_must_contain": "Пароль должен содержать хотя бы одну заглавную букву, одну строчную букву, одну цифру и один специальный символ.",
+      "password_invalid_length": "Пароль должен быть не менее 8 символов",
+      "password_not_matching": "Пароли не совпадают!",
+
+      "profile_error_creating": "Ошибка при создании профиля!",
+
+      "image_failed_convert": "Ошибка преобразования изображения!",
+      "image_invalid_selection": "Пожалуйста, выберите допустимое изображение размером менее 10 МБ!",
+
+      "accommodation_title_min_length": "Заголовок должен содержать не менее 5 символов",
+      "accommodation_title_max_length": "Заголовок должен содержать менее 100 символов",
+      "accommodation_square_meters_max": "Квадратные метры должны быть менее 1000",
+      "accommodation_number_rooms_min": "Количество комнат должно быть не менее 1",
+      "accommodation_number_rooms_max": "Количество комнат должно быть менее 50",
+      "accommodation_price_max": "Цена должна быть менее 10000",
+      "accommodation_allowed_number_people_min": "Разрешенное количество людей должно быть не менее 1",
+      "accommodation_allowed_number_people_max": "Разрешенное количество людей должно быть менее 50",
+      "accommodation_description_min_length": "Описание должно содержать не менее 10 символов",
+      "accommodation_description_max_length": "Описание должно содержать менее 1000 символов",
+      "accommodation_address_country_min_length": "Страна не должна быть пустой",
+      "accommodation_address_city_min_length": "Город не должен быть пустым",
+      "accommodation_address_street_min_length": "Улица должна содержать не менее 3 символов",
+
+      "language_update": "Ошибка обновления языка"
+    },
+
+    "home_ui": {
+      "user_home_btn": {
+        "account": "Aккаунт",
+        "mylistings": "Mои объявления",
+        "logout": "Выход из системы"
+      },
+      "register": {
+        "sign_in": {
+          "sing_in_btn": "Войти",
+          "sing_title": "Вход",
+          "sing_in_link": "войти",
+          "title": "Пожалуйста, войдите",
+          "forgot_password": "Забыли пароль",
+          "forgot_password_modal": "Введите адрес электронной почты, связанный с вашим аккаунтом, и мы вышлем вам ссылку для сброса пароля.",
+          "send_resend_link": "Отправить ссылку для сброса",
+          "forgot_password_desc": "Если у вас нет аккаунта, пожалуйста"
+        },
+        "sing_out": {
+          "sing_up_link": "зарегистрируйтесь",
+          "sing_up_btn": "Зарегистрироваться",
+          "sing_title": "Добро пожаловать в {{name}}",
+          "desc": "Если у вас уже есть аккаунт, пожалуйста"
+        },
+        "auth-confirmed": {
+          "check_email": "Проверьте свою почту",
+          "check_desc": "Вы должны получить электронное письмо с ссылкой для подтверждения вашего адреса электронной почты.",
+          "return": "Вернуться к регистрации"
+        }
+      },
+
+      "filters_button": {
+        "filter": "Фильтр",
+        "price": {
+          "price_range": "Ценовой диапазон",
+          "price_description": "Ночные цены до вычета сборов и налогов",
+          "min": "Минимум",
+          "max": "Максимум"
+        },
+        "rooms": {
+          "title": "Комнаты",
+          "any": "любой"
+        },
+        "people": {
+          "title": "Люди",
+          "any": "любой"
+        },
+        "sort": {
+          "title": "Сортировка",
+          "price-title": "Цена",
+          "room-title": "Комнаты",
+          "people-title": "Люди",
+          "price": ["любой", "От низкого к высокому", "от высокого к низкому"],
+          "room": ["любой", "От низкого к высокому", "от высокого к низкому"],
+          "people": ["любой", "От низкого к высокому", "от высокого к низкому"]
+        },
+        "clear_btn": "Очистить",
+        "filter_btn": "Фильтр"
+      },
+      "card": {
+        "night": "Ночь"
+      },
+      "footer_info": {
+        "terms": "Условия",
+        "sitemap": "Карта сайта",
+        "privacy": "Конфиденциальность",
+        "your_privacy_choices": "Ваш выбор конфиденциальности",
+        "copyright": "© 2023 {{name}}, Inc."
+      }
+    },
+
+    "account_edit_page": {
+      "personal_info": "Личная информация",
+      "personal_desc": "Обновите свой пароль и обеспечьте безопасность вашего аккаунта",
+      "login_secure": "Вход и безопасность",
+      "login_secure_desc": "Укажите личные данные и способы связи с вами",
+      "setting": "Настройки",
+      "setting_desc": "Установите язык и валюту по умолчанию",
+      "airbnb_your_place": "{{name}} ваше место",
+      "airbnb_your_place_desc": "Это просто: начните настраивать и зарабатывать."
+    },
+
+    "account_edit_personal-info": {
+      "image": {
+        "edit": "Редактировать",
+        "add": "Добавить"
+      },
+      "name": {
+        "legal_name": "Фамилия и имя",
+        "legal_name_desc": "Это имя в вашем документе, таком как водительское удостоверение или паспорт.",
+        "edit": "редактировать",
+        "save": "Сохранить",
+        "first_name": "Имя",
+        "last_name": "Фамилия"
+      },
+      "gender": {
+        "your_gender": "Ваш пол",
+        "male": "Мужской",
+        "female": "Женский",
+        "edit": "редактировать",
+        "save": "Сохранить",
+        "select": "Выберите ваш пол",
+        "gender": "Пол"
+      },
+      "location": {
+        "where_do_live": "Где вы живете",
+        "edit": "редактировать",
+        "save": "Сохранить",
+        "select": "Выберите страну",
+        "uzbekistan": "Узбекистан",
+        "kazakhstan": "Казахстан",
+        "russia": "Россия",
+        "country": "Страна"
+      },
+      "number": {
+        "phone_number": "Номер телефона",
+        "phone_number_desc": "Добавьте номер, чтобы подтвержденные гости и {{name}} могли связаться с вами. Вы можете добавить другие номера и выбрать, как они будут использоваться.",
+        "edit": "редактировать",
+        "save": "сохранить"
+      },
+      "about": {
+        "about": "О вас",
+        "about_desc": "Напишите что-то интересное и яркое",
+        "about_textarea": "Расскажите немного о себе, чтобы ваши будущие хозяева или гости могли вас узнать.",
+        "edit": "редактировать",
+        "save": "сохранить"
+      }
+    },
+
+    "login_and_security": {
+      "login_title": "Вход и безопасность",
+      "email": {
+        "edit": "Редактировать",
+        "email": "Электронная почта",
+        "email_desc": "Введите ваш новый адрес электронной почты",
+        "change_btn": "Изменить",
+        "cancel": "Отмена"
+      },
+      "password": {
+        "change_your_password": "Изменить ваш пароль",
+        "edit": "Редактировать",
+        "change_btn": "Изменить",
+        "cancel": "Отмена",
+        "current": "Текущий пароль",
+        "new_password": "Новый пароль",
+        "confirm": "Подтвердите пароль",
+        "passport_placeholder": "Пароль"
+      }
+    },
+
+    "setting": {
+      "title": "Настройки",
+      "theme": "Тема",
+      "light": "Светлая",
+      "dark": "Темная",
+      "language": "Предпочтительный язык",
+      "lang_desc": "Это обновляет то, что вы читаете на {{name}}, и то, как мы с вами общаемся.",
+      "currency_desc": "Выберите предпочтительную валюту",
+      "can_dollar": "Канадский доллар",
+      "uzbek": "Узбекский",
+      "russian": "Русский",
+      "english": "Английский",
+      "kazak": "Казахский",
+      "german": "Немецкий",
+      "currency": "Предпочтительная валюта",
+      "dollar": "Доллар США"
+    },
+
+    "aminities_list": {
+      "title": "Что предлагает это место"
+    },
+
+    "review_list": {
+      "title": "Рейтинг",
+      "show_all": "Показать все",
+      "reviews": "отзывы"
+    },
+
+    "booking_form": {
+      "error_message": "Дата заезда должна быть раньше даты выезда и не может совпадать",
+      "night": "ночь",
+      "you_will_not_charged_yet": "С вас еще не будут взиматься средства",
+      "total": "Всего",
+      "login": "войти",
+      "login_required": "необходимо для бронирования",
+      "reserve": "Зарезервировать",
+      "check_in": "Заезд",
+      "check_out": "Выезд"
+    },
+
+    "forgot_password_reset": {
+      "title": "Обновить пароль",
+      "description": "Введите ваш новый пароль ниже, чтобы сбросить текущий пароль.",
+      "password": "Пароль",
+      "re_enter": "Повторно введите ваш пароль",
+      "update": "Обновить"
+    },
+
+    "verify_email": {
+      "title": "Проверка электронной почты..."
+    },
+
+    "create_profile": {
+      "title": "Cоздать профиль",
+      "legal_name": "Фамилия и имя",
+      "first_name": "Имя",
+      "last_name": "Фамилия",
+      "select_country": "Выберите страну",
+      "uzbekistan": "Узбекистан",
+      "russian": "Россия",
+      "kazakhstan": "Казахстан",
+      "gender": "Пол",
+      "male": "Мужчина",
+      "female": "Женщина",
+      "phone_number": "Номер телефона",
+      "description": "Описание",
+      "description_desc": "Расскажите нам немного о себе, чтобы ваши будущие хозяева или гости могли вас узнать.",
+      "create_btn": "Создать",
+      "country": "Страна"
+    },
+
+    "searchTexts": {
+      "input_date_label_checkin": "Заезд",
+      "input_date_label_checkout": "Выезд",
+      "input_location_label_default": "Пункт назначения",
+      "input_location_label_anywhere": "Везде",
+      "search_button": "Поиск",
+      "input_location_no_options": "Введите местоположение"
+    },
+
+    "profileActions": {
+      "profile_image_change": "Изображение профиля успешно изменено",
+      "profile_create": "Профиль успешно создан",
+      "profile_change": "Профиль успешно изменен"
+    },
+
+    "amenities": {
+      "edit_success": "Изменения в размещении успешно сохранены",
+      "create_success": "Размещение успешно создано",
+      "already_exists": "Удобства уже существуют",
+      "cannot_contain_comma": "Удобства не могут содержать запятые",
+      "no_amenities_selected": "Нет удобств для сохранения"
+    },
+
+    "host": {
+      "profile": {
+        "subtitle": "Хозяин",
+        "rating": "Рейтинг",
+        "reviews": "Отзывы",
+        "listings": "Объявления"
+      },
+      "verified": {
+        "title": "Подтвержденная информация о {{firstName}}",
+        "identity": "Личность",
+        "email": "Адрес электронной почты",
+        "phone": "Номер телефона"
+      },
+      "about": {
+        "title": "О {{firstName}}",
+        "joined": "Присоединился в {{joinedAt}}",
+        "language": "Говорит на {{language}}",
+        "lives_in": "Живет в {{country}}"
+      },
+      "reviews": {
+        "title": "Последние отзывы о {{firstName}}",
+        "empty": "У этого хозяина пока нет отзывов"
+      },
+      "listings": {
+        "title": "Объявления {{firstName}}",
+        "empty": "У этого хозяина нет активных размещений"
+      }
+    },
+
+    "review_modal": {
+      "title": "Оставить отзыв",
+      "placeholder": "Напишите ваш отзыв здесь...",
+      "submit": "Отправить",
+      "cancel": "Отмена",
+      "success": "Отзыв отправлен"
+    },
+
+    "owner_card": {
+      "title": "Владелец",
+      "joined_in": "Присоединился в"
+    },
+
+    "wishlist": {
+      "title": "Избранное",
+      "wishlits_empty_title": "Создайте свой первый список желаний",
+      "wishlits_empty_text": "Во время поиска нажмите на значок сердца, чтобы сохранить понравившиеся вам места и впечатления в список желаний"
+    },
+    "bookings": {
+      "title": "Ваши бронирования",
+      "pending": "В ожидании",
+      "active": "Активный",
+      "completed": "Завершено",
+      "upcoming": "Предстояший",
+      "status": "Статус",
+      "total": "Всего",
+      "check_in": "Заезд",
+      "check_out": "Выезд",
+      "desc_not_booked": "Вы еще не забронировали никакого жилья",
+      "pay_now": "Оплатить сейчас",
+      "my_bookings": "Мои бронирования",
+      "add_review": "Добавить отзыв"
+    },
+    "create_accommodation_route": {
+      "no_accommodation_found": "Жилье не найдено",
+      "no_accommodation_created": "Вы еще не создали никаких размещений",
+      "title_your_acc": "Ваши размещения",
+      "create_title": "Создать размещение",
+      "basic_info": "Основная информация",
+      "title_input": "Название",
+      "desc_input": "Описание",
+      "availability": "Доступность",
+      "available_from": "Доступно с",
+      "available_to": "Доступно до",
+      "available": "Доступно",
+      "details": "Детали",
+      "allowed_people": "Разрешенное количество человек",
+      "number_rooms": "Количество комнат",
+      "price": "Цена",
+      "sq_meter": "Квадратные метры",
+      "address": "Адрес",
+      "country": "Страна",
+      "city": "Город",
+      "street": "Улица",
+      "zip_code": "Почтовый индекс",
+      "cancel_btn": "Отмена",
+      "next_btn": "Следующий шаг",
+      "add_image_title": "Добавьте фотографии вашего дома",
+      "add_image_desc": "Вам потребуется 5 фотографий, чтобы начать. Вы можете добавить больше или внести изменения позже.",
+      "drag_drop": "Перетащите ваши фотографии сюда",
+      "five_images": "Выберите как минимум 5 изображений",
+      "upload_btn": "Загрузить с устройства",
+      "choose_at_least_5": "Выберите как минимум 5 изображений",
+      "choose_images": "Выберите картинки",
+      "add_aminities": "Добавить удобства",
+      "save_btn": "Сохранить",
+      "deleted": "Удалено",
+      "create": "Создать",
+      "edit": "Редактировать",
+      "accommodation": "Размещение",
+      "amenities": "удобства",
+      "search_place": "Поиск местоположения",
+      "selected_place": "Выбранное место",
+      "location": "Местоположение",
+      "no_results": "Результатов не найдено"
+    },
+    "toast": {
+      "error_session_expired": "Ваша сессия истекла, пожалуйста, войдите снова",
+      "error_img": "Ошибка конвертации изображения!",
+      "error_theme": "Ошибка при изменении темы!",
+      "error_util": "Ошибка при получении значения",
+      "success_accommodation_deleted": "Жилье успешно удалено",
+      "success_accommodation_restored": "Жилье успешно восстановлено",
+      "success_profile": "Профиль создан успешно!",
+      "success_updated": "Успешно обновлено!",
+      "success_email": "Электронная почта подтверждена"
+    },
+    "edit_accommodation": {
+      "show_all_images": "Показать все изображения",
+      "edit_accommodation": "Редактировать размещение",
+      "guests": "Гости",
+      "rooms": "Комнаты",
+      "sq_meter": "Квадратные метры",
+      "delete": "Удалить",
+      "are_you_sure_del": "Вы уверены, что хотите удалить это размещение?",
+      "yes": "Да",
+      "no": "Нет",
+      "restore": "Восстановить",
+      "close": "закрывать"
+    },
+    "accommodation_reservations": {
+      "all_accommodation_reservations": "Все бронирования"
+    },
+
+    "bottom_nav": {
+      "explore": "Исследовать",
+      "bookings": "Бронирования"
+    },
+
+    "pending_timer": {
+      "minutes": "мин"
+    }
+  }
+}

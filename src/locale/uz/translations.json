@@ -1,0 +1,438 @@
+{
+  "translation": {
+    "payment": {
+      "title": "To'lov",
+      "option_name": "To'lov turi",
+      "option_type": {
+        "card": "Karta",
+        "cash": "Naqd pul"
+      },
+      "dates": "Sana",
+      "price_per_night": "Kunlik narx",
+      "total_price": "Umumiy narx",
+      "button_type": {
+        "card": "Karta bilan to'lash",
+        "cash": "Naqd pul bilan to'lash"
+      }
+    },
+
+    "errors": {
+      "default": "Nimadir noto'g'ri ketdi, qaytadan urinib ko'ring",
+
+      "accommodation_failed_to_get_single": "Bitta joy ma'lumotini olishda xatolik yuz berdi",
+      "accommodation_failed_to_get_list": "Mehmonxona ro'yxatini olishda xatolik yuz berdi",
+
+      "field_is_required": "Ushbu maydonni to'ldirish shart",
+      "enter_valid_email": "Iltimos, haqiqiy elektron pochta manzilingizni kiriting",
+      "enter_valid_phone_number": "Iltimos, haqiqiy telefon raqamingizni kiriting",
+      "password_must_contain": "Parol kamida bir katta harf, bir kichik harf, bir raqam va bir maxsus belgidan iborat bo'lishi kerak",
+      "password_invalid_length": "Parol kamida 8 ta belgidan iborat bo'lishi kerak",
+      "password_not_matching": "Parollar mos emas!",
+
+      "profile_error_creating": "Profil yaratishda xatolik!",
+
+      "image_failed_convert": "Rasmni o'zgartirishda xatolik!",
+      "image_invalid_selection": "Iltimos, 10 MB dan kichik bo'lgan haqiqiy rasmni tanlang!",
+
+      "accommodation_title_min_length": "Sarlavha kamida 5 belgidan iborat bo'lishi kerak",
+      "accommodation_title_max_length": "Sarlavha 100 belgidan kam bo'lishi kerak",
+      "accommodation_square_meters_max": "Kvadrat metrlar 1000 dan kam bo'lishi kerak",
+      "accommodation_number_rooms_min": "Xonalar soni kamida 1 bo'lishi kerak",
+      "accommodation_number_rooms_max": "Xonalar soni 50 dan kam bo'lishi kerak",
+      "accommodation_price_max": "Narx 10000 dan kam bo'lishi kerak",
+      "accommodation_allowed_number_people_min": "Ruxsat etilgan odam soni kamida 1 bo'lishi kerak",
+      "accommodation_allowed_number_people_max": "Ruxsat etilgan odam soni 50 dan kam bo'lishi kerak",
+      "accommodation_description_min_length": "Tavsif kamida 10 belgidan iborat bo'lishi kerak",
+      "accommodation_description_max_length": "Tavsif 1000 belgidan kam bo'lishi kerak",
+      "accommodation_address_country_min_length": "Mamlakat kamida 3 belgidan iborat bo'lishi kerak",
+      "accommodation_address_city_min_length": "Shahar kamida 3 belgidan iborat bo'lishi kerak",
+      "accommodation_address_street_min_length": "Ko'cha kamida 3 belgidan iborat bo'lishi kerak",
+
+      "language_update": "Tilni yangilashda xatolik"
+    },
+
+    "home_ui": {
+      "user_home_btn": {
+        "account": "Profil",
+        "mylistings": "Mening ro'yhatlarim",
+        "logout": "Chiqish"
+      },
+      "register": {
+        "sign_in": {
+          "sing_in_btn": "Kirish",
+          "sing_title": "Kirish",
+          "sing_in_link": "kirish",
+          "title": "Iltimos, kirishni tanlang",
+          "forgot_password": "Parolingizni unutdingizmi?",
+          "forgot_password_modal": "Akkauntingizga bog'liq elektron pochta manzilini kiriting, va biz sizga parolingizni qayta tiklash uchun havola yuboramiz.",
+          "send_resend_link": "Qayta tiklash havolasini yuborish",
+          "forgot_password_desc": "Agar akkauntngiz yo'q bo'lsa, ro'yxatdan o'ting"
+        },
+        "sing_out": {
+          "sing_up_link": "ro'yxatdan o'tish",
+          "sing_up_btn": "Ro'yxatdan o'tish",
+          "sing_title": "Xush kelibsiz {{name}}",
+          "desc": "Agar allaqachon akkauntingiz bo'lsa, Iltimos, kirishni tanlang"
+        },
+        "auth-confirmed": {
+          "check_email": "Elektron pochtangizni tekshiring",
+          "check_desc": "Elektron pochta manzilingizni tasdiqlash uchun havola bilan elektron xat olasiz.",
+          "return": "Ro'yxatdan o'tishga qaytish"
+        }
+      },
+      "filters_button": {
+        "filter": "Filtr",
+        "price": {
+          "price_range": "Narx Oraliqi",
+          "price_description": "To'lovlardan va soliqlardan oldin tungi narxlar",
+          "min": "Minimum",
+          "max": "Maksimum"
+        },
+        "rooms": {
+          "title": "Xonalar",
+          "any": "Har qanday"
+        },
+        "people": {
+          "title": "Odamlar",
+          "any": "Har qanday"
+        },
+        "sort": {
+          "title": "Saralash",
+          "price-title": "Narx",
+          "room-title": "Xonalar",
+          "people-title": "Odamlar",
+          "price": ["Har qanday", "Pastdan yuqoriga", "yuqoridan pastga"],
+          "room": ["Har qanday", "Pastdan yuqoriga", "yuqoridan pastga"],
+          "people": ["Har qanday", "Pastdan yuqoriga", "yuqoridan pastga"]
+        },
+        "clear_btn": "Tozalash",
+        "filter_btn": "Filtr"
+      },
+      "card": {
+        "night": "Kunlik"
+      },
+      "footer_info": {
+        "terms": "Shartlar",
+        "sitemap": "Sayt xaritasi",
+        "privacy": "Maxfiylik",
+        "your_privacy_choices": "Sizning maxfiylik tanlovlaringiz",
+        "copyright": "© 2023 {{name}}, Inc."
+      }
+    },
+
+    "account_edit_page": {
+      "personal_info": "Shaxsiy ma'lumot",
+      "personal_desc": "Shaxsiy parolingizni yangilang va hisobingizni himoyalang",
+      "login_secure": "Kirish va Himoya",
+      "login_secure_desc": "Xavfsiz ma'lumotlarni taqdim eting va biz siz bilan qanday aloqaga chiqishimizni tanlang",
+      "setting": "Sozlamalar",
+      "setting_desc": "O'z taqdimot tilini va valyutangizni belgilang",
+      "airbnb_your_place": "{{name}} joyingizni ijaraga bering",
+      "airbnb_your_place_desc": "O'rnatish va daromad olish juda oson."
+    },
+
+    "account_edit_personal-info": {
+      "image": {
+        "edit": "O'zgartirish",
+        "add": "Rasm Qo'shish"
+      },
+      "name": {
+        "legal_name": "Haqiqiy ism",
+        "legal_name_desc": "Bu sayohat hujjatingizdagi ism, unda yuridik ko'rik yoki passport bo'lishi mumkin.",
+        "edit": "tahrirlash",
+        "save": "saqlash",
+        "first_name": "Ism",
+        "last_name": "Familia"
+      },
+      "gender": {
+        "your_gender": "Sizning jinsingiz",
+        "male": "erkak",
+        "female": "ayol",
+        "edit": "tahrirlash",
+        "save": "saqlash",
+        "select": "Jinsingizni tanlang",
+        "gender": "Jins"
+      },
+      "location": {
+        "where_do_live": "Qayerda yashaysiz",
+        "edit": "tahrirlash",
+        "save": "saqlash",
+        "select": "Mamlakatingizni tanlang",
+        "uzbekistan": "O'zbekiston",
+        "kazakhstan": "Qozog'iston",
+        "russia": "Rossiya",
+        "country": "Mamlakat"
+      },
+      "number": {
+        "phone_number": "Telefon raqam",
+        "phone_number_desc": "Tasdiqlangan mehmonlar va {{name}} siz bilan bog'lanish uchun raqam qo'shing. Siz boshqa raqamlarni qo'shishingiz va ularni qanday foydalanilishini tanlashingiz mumkin.",
+        "edit": "tahrirlash",
+        "save": "saqlash"
+      },
+      "about": {
+        "about": "Siz haqingizda",
+        "about_desc": "Qiziq va jozibali narsa yozing",
+        "about_textarea": "O'zingiz haqida qisqa nima deyishni ayt, huddi kelgan yoki keluvchi tashrif buyuruvchilaringiz bilan tanishishlari uchun.",
+        "edit": "tahrirlash",
+        "save": "saqlash"
+      }
+    },
+
+    "login_and_security": {
+      "login_title": "Kirish va Xavfsizlik",
+      "email": {
+        "edit": "Tahrirlash",
+        "email": "Elektron pochta",
+        "email_desc": "Yangi elektron pochta manzilingizni kiriting",
+        "change_btn": "O'zgartirish",
+        "cancel": "Bekor qilish"
+      },
+      "password": {
+        "change_your_password": "Parolingizni o'zgartirish",
+        "edit": "Tahrirlash",
+        "change_btn": "O'zgartirish",
+        "cancel": "Bekor qilish",
+        "current": "Joriy parol",
+        "new_password": "Yangi Parol",
+        "confirm": "Parolni tasdiqlang",
+        "password": "Parol"
+      }
+    },
+
+    "setting": {
+      "title": "Sozlamalar",
+      "theme": "Ekran sozlamasi",
+      "light": "Yorug'",
+      "dark": "Qora",
+      "language": "Tanlangan tillar",
+      "lang_desc": "Bu sizni {{name}} saytida o'qigan ma'lumotlaringizni va siz bilan muloqot qilish usullarini yangilaydi.",
+      "currency_desc": "Siz tanlagan valyutani tanlang",
+      "can_dollar": "Kanada dollari",
+      "uzbek": "O'zbekcha",
+      "russian": "Ruscha",
+      "english": "Inglizcha",
+      "kazak": "Qozog'istoncha",
+      "german": "Nemischa",
+      "currency": "Tanlangan valyuta",
+      "dollar": "AQSH dollari"
+    },
+
+    "aminities_list": {
+      "title": "Qanday qulayliklar mavjud"
+    },
+
+    "review_list": {
+      "title": "Reyting",
+      "show_all": "Barcha",
+      "reviews": "izohlar ko'rish"
+    },
+
+    "booking_form": {
+      "error_message": "Kirish sanasi chiqish sanasidan oldin va bir xil bo'lishi kerak",
+      "night": "kunlik",
+      "you_will_not_charged_yet": "Hali to'lanmagan ekansiz",
+      "total": "Jami",
+      "login": "Kirish",
+      "login_required": "band qilish uchun kerak",
+      "reserve": "Band qilish",
+      "check_in": "Kirish",
+      "check_out": "Chiqish"
+    },
+
+    "forgot_password_reset": {
+      "title": "Parolni yangilash",
+      "description": "Parolni qayta tiklash uchun yangi parolingizni quyidagi maydonchaga kiriting.",
+      "password": "Parol",
+      "re_enter": "Parolingizni qayta kiriting",
+      "update": "Yangilash"
+    },
+
+    "verify_email": {
+      "title": "Elektron pochta tekshirilmoqda..."
+    },
+
+    "create_profile": {
+      "title": "Profil yaratish",
+      "legal_name": "Ism Familia",
+      "first_name": "Ism",
+      "last_name": "Familia",
+      "select_country": "Davlatni tanlang",
+      "uzbekistan": "O'zbekiston",
+      "russian": "Rossiya",
+      "kazakhstan": "Qozog'iston",
+      "gender": "Jins",
+      "male": "Erkak",
+      "female": "Ayol",
+      "phone_number": "Telefon raqam",
+      "description": "Tavsif",
+      "description_desc": "O'zingiz haqingizda qisqa ma'lumot bering, shunday qilib, kelajakdagi mehmonlar yoki mehmonlar sizni taniyishlari mumkin bo'lsin.",
+      "create_btn": "Yaratish",
+      "country": "Mamlakat"
+    },
+
+    "searchTexts": {
+      "input_date_label_checkin": "Kirish kuni",
+      "input_date_label_checkout": "Chiqish kuni",
+      "input_location_label_default": "Manzil",
+      "input_location_label_anywhere": "Har qayer",
+      "search_button": "Izlash",
+      "input_location_no_options": "Joylashuvni kiriting"
+    },
+
+    "profileActions": {
+      "profile_image_change": "Profil rasmi muvaffaqiyatli o'zgartirildi",
+      "profile_create": "Profil muvaffaqiyatli yaratildi",
+      "profile_change": "Profil muvaffaqiyatli o'zgartirildi"
+    },
+
+    "amenities": {
+      "edit_success": "Turar joy oʻzgarishlari muvaffaqiyatli saqlandi",
+      "create_success": "Turar joy muvaffaqiyatli yaratildi",
+      "already_exists": "Qulayliklar allaqachon mavjud",
+      "cannot_contain_comma": "Qulayliklarda vergul bo'lishi mumkin emas",
+      "no_amenities_selected": "Saqlash uchun qulayliklar yo'q"
+    },
+
+    "host": {
+      "profile": {
+        "subtitle": "Mezbon",
+        "rating": "Reyting",
+        "reviews": "Fikrlar",
+        "listings": "Kvartiralar"
+      },
+      "verified": {
+        "title": "{{firstName}}'ning tasdiqlangan ma'lumoti",
+        "identity": "Shaxsiy ma'lumot",
+        "email": "Elektron manzil",
+        "phone": "Telefon raqami"
+      },
+      "about": {
+        "title": "{{firstName}} haqida",
+        "joined": "{{joinedAt}} sanada qo'shildi",
+        "language": "{{language}} tilida gapiradi",
+        "lives_in": "{{country}} da yashaydi"
+      },
+      "reviews": {
+        "title": "{{firstName}}ning so'nggi fikrlari",
+        "empty": "Ushbu mezbon haqida hech qanday fikr mavjud emas"
+      },
+      "listings": {
+        "title": "{{firstName}}ning ro'yxatlari",
+        "empty": "Ushbu mezbonning kvartiralar ro'yxati mavjud emas"
+      }
+    },
+
+    "review_modal": {
+      "title": "Izoh qoldirish",
+      "placeholder": "Izoingizni qoldiring",
+      "submit": "Jo'natish",
+      "cancel": "Bekor qilish",
+      "success": "Izohingiz jo'natildi"
+    },
+
+    "owner_card": {
+      "title": "Uy egasi",
+      "joined_in": "Qo'shilgan"
+    },
+
+    "wishlist": {
+      "title": "Istaklar",
+      "wishlits_empty_title": "Birinchi istaklar ro'yxatingizni yarating",
+      "wishlits_empty_text": "Izlash jarayonida sevimli joylaringiz va tajribalaringizni istaklar ro'yxatiga saqlash uchun yurak belgisini bosing"
+    },
+    "bookings": {
+      "title": "Sizning band qilganlaringiz",
+      "pending": "Kutilmoqda",
+      "active": "Faol",
+      "completed": "Bajarildi",
+      "upcoming": "Yaqinlashib kelayotgan",
+      "status": "Holat",
+      "total": "Jami",
+      "check_in": "Kirish",
+      "check_out": "Chiqish",
+      "desc_not_booked": "Siz hali hech qanday joylashuvlarni band qilmadingiz",
+      "pay_now": "Xozir to'lang",
+      "my_bookings": "Band qilganlarim",
+      "add_review": "Izoh qo'shish"
+    },
+    "create_accommodation_route": {
+      "no_accommodation_found": "Mehmonxona topilmadi",
+      "no_accommodation_created": "Siz hali hech qanday joylashuvlar yaratmadingiz",
+      "title_your_acc": "Sizning joylashuvingiz",
+      "create_title": "Turar joy yarating",
+      "basic_info": "Asosiy ma'lumotlar",
+      "title_input": "Nomi",
+      "desc_input": "Ta'rif",
+      "availability": "Mavjudlik",
+      "available_from": "Mavjud sana",
+      "available_to": "Mavjud sanadan",
+      "available": "Mavjud",
+      "details": "Tafsilotlar",
+      "allowed_people": "Ruxsat etilgan odam soni",
+      "number_rooms": "Xonalar soni",
+      "price": "Narx",
+      "sq_meter": "Kvadrat metr",
+      "address": "Manzil",
+      "country": "Mamlakat",
+      "city": "Shahar",
+      "street": "Ko'cha",
+      "zip_code": "Pochta indeksi",
+      "cancel_btn": "Bekor qilish",
+      "next_btn": "Keyingi qadam",
+      "add_image_title": "Uyning suratlarini qo'shing",
+      "add_image_desc": "Boshlash uchun 5 ta surat kerak. Siz keyinroq ham qo'shishingiz yoki o'zgartirishingiz mumkin.",
+      "drag_drop": "Suratlarni bu yerga torting va qo'ying",
+      "five_images": "Eng kamida 5 ta surat tanlang",
+      "upload_btn": "Qurilmangizdan yuklang",
+      "choose_at_least_5": "Eng kamida 5 ta surat tanlang",
+      "choose_images": "Rasmlarni tanlang",
+      "add_aminities": "Qo'shimchalar qo'shish",
+      "save_btn": "Saqlash",
+      "deleted": "O'chirildi",
+      "create": "Yaratish",
+      "edit": "Tahrir qilish",
+      "accommodation": "Turar joy",
+      "amenities": "qulayliklar",
+      "search_place": "Joyni qidirish",
+      "selected_place": "Tanlangan joy",
+      "location": "Joylashuv",
+      "no_results": "Natijalar topilmadi"
+    },
+    "toast": {
+      "error_session_expired": "Muddati o'tib ketgan, iltimos, qayta ko'ring",
+      "error_img": "Rasm o'zgartirishda xato yuz berdi!",
+      "error_theme": "Mavzu o'zgartirishda xato!",
+      "error_util": "Qiymatni olishda xato",
+      "success_accommodation_deleted": "Mehmonxona muvaffaqiyatli o'chirildi",
+      "success_accommodation_restored": "Mehmonxona muvaffaqiyatli tiklandi",
+      "success_profile": "Profil muvaffaqiyatli yaratildi!",
+      "success_updated": "Muvaffaqiyatli yangilandi!",
+      "success_email": "Elektron pochta tasdiqlandi"
+    },
+    "edit_accommodation": {
+      "show_all_images": "Barcha rasmlarni ko'rsatish",
+      "edit_accommodation": "Turar joyni o'zgartirish",
+      "guests": "Mehmonlar",
+      "rooms": "Xonalar",
+      "sq_meter": "Kvadrat metr",
+      "delete": "O'chirish",
+      "are_you_sure_del": "Haqiqatan ham ushbu makorni o'chirib tashlashni istaysizmi?",
+      "yes": "Ha",
+      "no": "Yo'q",
+      "restore": "Qayta tiklash",
+      "close": "yopmoq"
+    },
+    "accommodation_reservations": {
+      "all_accommodation_reservations": "Barcha rezervatsiyalar"
+    },
+
+    "bottom_nav": {
+      "explore": "Tadqiq",
+      "bookings": "Buyurtnomalar"
+    },
+
+    "pending_timer": {
+      "minutes": "min"
+    }
+  }
+}

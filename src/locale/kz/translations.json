@@ -1,0 +1,438 @@
+{
+  "translation": {
+    "payment": {
+      "title": "Төлем",
+      "option_name": "Төлем опциясы",
+      "option_type": {
+        "card": "Карта",
+        "cash": "Нақты ақша"
+      },
+      "dates": "Күндер",
+      "price_per_night": "Түні бойынша баға",
+      "total_price": "Жалпы баға",
+      "button_type": {
+        "card": "Карта арқылы төлеу",
+        "cash": "Нақты ақша арқылы төлеу"
+      }
+    },
+
+    "errors": {
+      "default": "Көмек көрсетуде катесіз, қайталап көріп көріңіз",
+
+      "accommodation_failed_to_get_single": "Бір қонақ үй мәліметін алу сәтсіз аяқталды",
+      "accommodation_failed_to_get_list": "Мекенжай тізімін алу сәтсіз аяқталды",
+
+      "field_is_required": "Бұл кесте толтыру қажет",
+      "enter_valid_email": "Мейл мекенжайын дұрыс енгізіңіз",
+      "enter_valid_phone_number": "Дұрыс телефон нөмірін енгізіңіз",
+      "password_must_contain": "Құпия сөзде кем дегенде бір үлкен әріп, бір кіші әріп, бір сан және бір арнайы белгі болуы керек",
+      "password_invalid_length": "Құпия сөз кемінде 8 символдан тұруы керек",
+      "password_not_matching": "Құпия сөздер сәйкес келмейді!",
+
+      "profile_image_change": "Профиль суреті сәтті өзгертілді",
+
+      "image_failed_convert": "Суретті түрлендіру мүмкін болмады!",
+      "image_invalid_selection": "10 МБ-тан аспайтын жарамды суретті таңдаңыз!",
+
+      "accommodation_title_min_length": "Тақырып кемінде 5 тауар атауы болуы керек",
+      "accommodation_title_max_length": "Тақырып 100 тауардан аз болуы керек",
+      "accommodation_square_meters_max": "Квадрат метрлер 1000-дан аз болуы керек",
+      "accommodation_number_rooms_min": "Көмекші көмбезді таңдау кемінде 1 болуы керек",
+      "accommodation_number_rooms_max": "Көмекші көмбезді таңдау 50-ден аз болуы керек",
+      "accommodation_price_max": "Баға 10000-дан аз болуы керек",
+      "accommodation_allowed_number_people_min": "Рұқсат етілген адам саны кемінде 1 болуы керек",
+      "accommodation_allowed_number_people_max": "Рұқсат етілген адам саны 50-ден аз болуы керек",
+      "accommodation_description_min_length": "Сипаттама кемінде 10 тауар болуы керек",
+      "accommodation_description_max_length": "Сипаттама 1000 тауардан аз болуы керек",
+      "accommodation_address_country_min_length": "Ел кемінде 3 тауар болуы керек",
+      "accommodation_address_city_min_length": "Қала кемінде 3 тауар болуы керек",
+      "accommodation_address_street_min_length": "Көше кемінде 3 тауар болуы керек",
+
+      "language_update": "Тілді жаңарту кезінде қателік"
+    },
+
+    "home_ui": {
+      "user_home_btn": {
+        "account": "Шот",
+        "mylistings": "Менің тізімдерім",
+        "logout": "Шығу"
+      },
+      "register": {
+        "sign_in": {
+          "sing_in_btn": "Кіру",
+          "sing_in_link": "Кіру",
+          "sing_title": "Кіру",
+          "title": "Илтимас, кіру",
+          "forgot_password": "Парольді унуттысызба?",
+          "forgot_password_modal": "Сіздің аккаунтыңызмен байланысты електрондық пошта мекенжайын енгізіп, сізге құпия сөзіңізді қайта орнату үшін сілтеме жібереміз.",
+          "send_resend_link": "Сілтеме жіберу",
+          "forgot_password_desc": "Агар аккаунтыңыз жоқ болса, толық болу"
+        },
+        "sing_out": {
+          "sing_up_link": "Тізімге толық болу",
+          "sing_up_btn": "Тізімге толық болу",
+          "sing_title": "{{name}}'ге қос қалдыңыз",
+          "desc": "Агар аллақачон аккаунтыңыз болса, Тізімге кіріңіз"
+        },
+        "auth-confirmed": {
+          "check_email": "Электрондық поштаны тексеріңіз",
+          "check_desc": "Сізге электрондық пошта арқылы сіздің электрондық пошта мекенжайын растау үшін сілтеме бар электрондық хат алуы керек.",
+          "return": "Тіркелуге оралу"
+        }
+      },
+      "filters_button": {
+        "filter": "фильтр",
+        "price": {
+          "price_range": "баға аралығы",
+          "price_description": "Төлемдер мен салықтардан алдынгы түнгі бағалар",
+          "min": "Минимум",
+          "max": "Максимум"
+        },
+        "rooms": {
+          "title": "Әрекет қабырғасы",
+          "any": "кез келген"
+        },
+        "people": {
+          "title": "Адамдар",
+          "any": "кез келген"
+        },
+        "sort": {
+          "title": "Сұрыптау",
+          "price-title": "Баға",
+          "room-title": "Әрекет қабырғасы",
+          "people-title": "Адамдар",
+          "price": ["кез келген", "Төменнен жоғарыға", "Жоғарыдан төменге"],
+          "room": ["кез келген", "Төменнен жоғарыға", "Жоғарыдан төменге"],
+          "people": ["кез келген", "Төменнен жоғарыға", "Жоғарыдан төменге"]
+        },
+        "clear_btn": "тазалау",
+        "filter_btn": "фильтр"
+      },
+      "card": {
+        "night": "түн"
+      },
+      "footer_info": {
+        "terms": "Шарттар",
+        "sitemap": "Сайт картаcы",
+        "privacy": "Құпиялылық",
+        "your_privacy_choices": "Сіздің құпиялылық таңдауларыңыз",
+        "copyright": "© 2023 {{name}}, Inc."
+      }
+    },
+
+    "account_edit_page": {
+      "personal_info": "Жеке ақпарат",
+      "personal_desc": "Жеке құпия сөзіңізді жаңартыңыз және тіркелгіңізді қауіпсіздікке дайындаңыз",
+      "login_secure": "Кіру және Қауіпсіздік",
+      "login_secure_desc": "Қауіпсіз мәліметтерді ұсыныңыз және біз сізге қалай хабарласа аламызды таңдаңыз",
+      "setting": "Параметрлер",
+      "setting_desc": "Әдепкі тіліңізді мен валютаңызды белгілеу",
+      "airbnb_your_place": "{{name}} орындыңызды сату",
+      "airbnb_your_place_desc": "Орналастыру және табыс істеу қарапайым."
+    },
+
+    "account_edit_personal-info": {
+      "image": {
+        "edit": "Өзгерту",
+        "add": "Қосу"
+      },
+      "name": {
+        "legal_name": "Қанағаттандырылған аты",
+        "legal_name_desc": "Бұл сіздің саяхат құжатыңыздағы аты, ол лицензия немесе паспорт бола алады.",
+        "edit": "өңдеу",
+        "save": "сақтау",
+        "first_name": "Аты",
+        "last_name": "Тегі"
+      },
+      "gender": {
+        "your_gender": "Сіздің жинсіздігіңіз",
+        "male": "еркек",
+        "female": "әйел",
+        "edit": "өңдеу",
+        "save": "сақтау",
+        "select": "Жинсіздігіңізді таңдаңыз",
+        "gender": "Жыныс"
+      },
+      "location": {
+        "where_do_live": "Сіз қайда тұратынызды",
+        "edit": "өңдеу",
+        "save": "сақтау",
+        "select": "Мемлекетіңізді таңдаңыз",
+        "uzbekistan": "Өзбекстан",
+        "kazakhstan": "Қазақстан",
+        "russia": "Ресей",
+        "country": "Әулет"
+      },
+      "number": {
+        "phone_number": "Телефон нөмірі",
+        "phone_number_desc": "Тасдықталған қонақтар және {{name}} сізге қалай хабарласа алады. Сіз басқа нөмірлерді қоса аласыз және оларды қалай қолданатыныңызды таңдауыңыз мүмкін.",
+        "edit": "өңдеу",
+        "save": "сақтау"
+      },
+      "about": {
+        "about": "Сізді туралы",
+        "about_desc": "Мазмұнды және жасалған нәрсе жазыңыз",
+        "about_textarea": "Өзіңіз туралы аз-аздан бірнеше сөзді айтып, келетінде келген жоспаршы немесе келетінде келетін танымалықтырушыларды таныстыра аласыз.",
+        "edit": "өңдеу",
+        "save": "сақтау"
+      }
+    },
+
+    "login_and_security": {
+      "login_title": "Кіру және қауіпсіздік",
+      "email": {
+        "edit": "Редакциялау",
+        "email": "Электрон почта",
+        "email_desc": "Жаңа электрон пошта мекен-жайын енгізіңіз",
+        "change_btn": "Өзгерту",
+        "cancel": "Бас тарту"
+      },
+      "password": {
+        "change_your_password": "Құпия сөзіңізді өзгерту",
+        "edit": "Редакциялау",
+        "change_btn": "Өзгерту",
+        "cancel": "Бас тарту",
+        "current": "Ағымдағы құпия сөз",
+        "new_password": "Жаңа құпия сөз",
+        "confirm": "Құпия сөзді растау",
+        "password": "Құпиясөз"
+      }
+    },
+
+    "setting": {
+      "title": "Параметрлер",
+      "theme": "Тақырып",
+      "light": "Жарық",
+      "dark": "Қара",
+      "language": "Таңдалған тілдер",
+      "lang_desc": "Бұл сіздің {{name}}-де оқып жатқан мәліметтеріңізді жаңартады және біз сізге қалай мінездеймізді хабарласамыз.",
+      "currency_desc": "Таңланған валютаңызды таңдаңыз",
+      "can_dollar": "Канада доллары",
+      "uzbek": "Өзбек тілі",
+      "russian": "Орыс тілі",
+      "english": "Ағылшын тілі",
+      "kazak": "Қазақ тілі",
+      "german": "Неміс тілі",
+      "currency": "Таңдалған валюта",
+      "dollar": "АҚШ доллары"
+    },
+
+    "aminities_list": {
+      "title": "Бұл орта не береді"
+    },
+
+    "review_list": {
+      "title": "Рейтинг",
+      "show_all": "Барлықты көрсету",
+      "reviews": "Пікірлер"
+    },
+
+    "booking_form": {
+      "error_message": "Кіру күні шығу күнінен бұрын болуы тиіс және сол күнді болмауы керек",
+      "night": "түн",
+      "you_will_not_charged_yet": "Сізді төлеу алмаймыз",
+      "total": "Барлығы",
+      "login": "Кіру",
+      "login_required": "резервті құру үшін қажет",
+      "reserve": "Резерв",
+      "check_in": "Тіркеу",
+      "check_out": "Шығу"
+    },
+
+    "forgot_password_reset": {
+      "title": "Құпия сөзді жаңарту",
+      "description": "Сіздің жаңа құпия сөзіңізді қалпына келтіру үшін төменге жаңа құпия сөзіңізді енгізіңіз.",
+      "password": "Құпия сөз",
+      "re_enter": "Құпия сөзіңізді қайта енгізіңіз",
+      "update": "Жаңарту"
+    },
+
+    "verify_email": {
+      "title": "Электрондық пошта тексеру..."
+    },
+
+    "create_profile": {
+      "title": "Профильді құрау",
+      "legal_name": "Қанағаттанушы атауы",
+      "first_name": "Аты",
+      "last_name": "Тегі",
+      "select_country": "Елді таңдау",
+      "uzbekistan": "Өзбекстан",
+      "russian": "Ресей",
+      "kazakhstan": "Қазақстан",
+      "gender": "Жыныс",
+      "male": "Ер",
+      "female": "Әйел",
+      "phone_number": "Телефон нөмірі",
+      "description": "Сипаттама",
+      "description_desc": "Өзіңіз туралы бір мезгіл сөйлеу, сондықтан келесі жатарсыздарыңыз не мекенжайларыңыз сізді танымас болса",
+      "create_btn": "Жасау",
+      "country": "Әулет"
+    },
+
+    "searchTexts": {
+      "input_date_label_checkin": "Тіркелу күні",
+      "input_date_label_checkout": "Шығу күні",
+      "input_location_label_default": "Баратын жер",
+      "input_location_label_anywhere": "Барлық жерде",
+      "search_button": "Іздеу",
+      "input_location_no_options": "Орынды енгізіңіз"
+    },
+
+    "profileActions": {
+      "profile_create": "Профиль сәтті жасалды",
+      "profile_error_creating": "Профиль жасауда қателік!",
+      "profile_change": "Профиль сәтті түрде өзгертілді"
+    },
+
+    "amenities": {
+      "edit_success": "Жаттықтау сәтті сақталды",
+      "create_success": "Жаттықтау сәтті жасалды",
+      "already_exists": "Ыңғайлылықтар бұрыннан бар",
+      "cannot_contain_comma": "Ыңғайлылықтарда үтір болмауы керек",
+      "no_amenities_selected": "Сақтау үшін қолайлы жағдайлар жоқ"
+    },
+
+    "host": {
+      "profile": {
+        "subtitle": "Мекенжай",
+        "rating": "Рейтинг",
+        "reviews": "Пікірлер",
+        "listings": "Тізімдемелер"
+      },
+      "verified": {
+        "title": "{{firstName}}'тың растауланған ақпараты",
+        "identity": "Жеке мәлімет",
+        "email": "Электрон пошта мекенжайы",
+        "phone": "Телефон нөмірі"
+      },
+      "about": {
+        "title": "{{firstName}} туралы",
+        "joined": "{{joinedAt}} жылы қосылды",
+        "language": "{{language}} тілінде сөйлейді",
+        "lives_in": "{{country}} қаласында тұрады"
+      },
+      "reviews": {
+        "title": "{{firstName}} сондай-ақ соңғы пікірлері",
+        "empty": "Бұл мекенжайда өзіне арналған пікірлер жоқ"
+      },
+      "listings": {
+        "title": "{{firstName}}'тың тізімдемелері",
+        "empty": "Бұл хосттың белсенді тұруы жоқ"
+      }
+    },
+
+    "review_modal": {
+      "title": "Пікір қалдыру",
+      "placeholder": "Сіздің пікіріңізді қалдырыңыз...",
+      "submit": "Жіберу",
+      "cancel": "Бас тарту",
+      "success": "Пікір жіберілді"
+    },
+
+    "owner_card": {
+      "title": "Басқарушы",
+      "joined_in": "Қосылды"
+    },
+
+    "wishlist": {
+      "title": "Қалаулар",
+      "wishlits_empty_title": "Өзіңіздің бірінші тілек тізімін жасаңыз",
+      "wishlits_empty_text": "Іздеу барысында сүйікті орындарыңызды және Тәжірибелеріңізді тілек тізіміне сақтау үшін жүрек белгішесін басыңыз"
+    },
+    "bookings": {
+      "title": "Сіздің брондауларыңыз",
+      "pending": "Күтууда",
+      "active": "Әрекетті",
+      "completed": "Аяқталды",
+      "upcoming": "Aлдағы",
+      "status": "Мәртебе",
+      "total": "Жалпы",
+      "check_in": "Кіру",
+      "check_out": "Шығу",
+      "desc_not_booked": "Сіз әлі жаттығуларды брондаулауыңызбақ",
+      "pay_now": "Қазір төлеу",
+      "my_bookings": "Менің брондауларым",
+      "add_review": "Пікір қосу"
+    },
+    "create_accommodation_route": {
+      "no_accommodation_found": "Тұрмыстар табылмады",
+      "no_accommodation_created": "Сіз әлі жаттығуларды қалдырмағансыз",
+      "title_your_acc": "Сіздің тұрарларыңыз",
+      "create_title": "Тұрар құру",
+      "basic_info": "Негізгі ақпарат",
+      "title_input": "Атау",
+      "desc_input": "Сипаттама",
+      "availability": "Барлығы",
+      "available_from": "Бастапқы күні",
+      "available_to": "Дайындау күні",
+      "available": "Бар",
+      "details": "Егжайындар",
+      "allowed_people": "Адамдардың рұқсат етілген саны",
+      "number_rooms": "Құрылым саны",
+      "price": "Баға",
+      "sq_meter": "Квадрат метр",
+      "address": "Мекенжай",
+      "country": "Ел",
+      "city": "Қала",
+      "street": "Көше",
+      "zip_code": "Пошта индексі",
+      "cancel_btn": "Бас тарту",
+      "next_btn": "Келесі қадам",
+      "add_image_title": "Өз үйіңіздің бейнелерін қосыңыз",
+      "add_image_desc": "Бастау үшін 5 фото көрсетілуі керек. Сіз кейінгіді бейімдеу немесе өзгерту мүмкін.",
+      "drag_drop": "Фотосуреттеріңізді осы жерге сүйреп көрсетіңіз",
+      "five_images": "Ең аз 5 сурет таңдаңыз",
+      "upload_btn": "Құрылмасынан жүктеу",
+      "choose_at_least_5": "Ең аз 5 сурет таңдаңыз",
+      "choose_images": "Суреттерді таңдаңыз",
+      "add_aminities": "Мүмкіндіктерді қосу",
+      "save_btn": "Сақтау",
+      "deleted": "Жойылды",
+      "create": "Жасау",
+      "edit": "Өңдеу",
+      "accommodation": "Тұрау",
+      "amenities": "имареттер",
+      "search_place": "Орын іздеу",
+      "selected_place": "Таңдалған орын",
+      "location": "Орналасу",
+      "no_results": "Нәтижелер табылмады"
+    },
+    "toast": {
+      "error_session_expired": "Сессиясы аяқталды, қайта кіру өтінеміз",
+      "error_img": "Суретті ауыстыру сәтсіз аяқталды!",
+      "error_theme": "Тақырыпты өзгерту кезінде қате!",
+      "error_util": "Мәнін алу кезінде қате",
+      "success_accommodation_deleted": "Жатау сәтті жойылды",
+      "success_accommodation_restored": "Жатау сәтті қалпына келтірілді",
+      "success_profile": "Профиль сәтті жасалды!",
+      "success_updated": "Сәтті жаңартылды!",
+      "success_email": "Электронды пошта тексерілді"
+    },
+    "edit_accommodation": {
+      "show_all_images": "Барлық суреттерді көрсету",
+      "edit_accommodation": "Тұрақтырылымды өңдеу",
+      "guests": "Қонақтар",
+      "rooms": "Әжеткімдер",
+      "sq_meter": "Квадрат метр",
+      "delete": "Өшіру",
+      "are_you_sure_del": "Сіз салымды өшіргіңіз келгеніне сенімдісіз бе?",
+      "yes": "Иә",
+      "no": "Жоқ",
+      "restore": "Қалпына келтіру",
+      "close": "жабық"
+    },
+    "accommodation_reservations": {
+      "all_accommodation_reservations": "Барлық резервтер"
+    },
+
+    "bottom_nav": {
+      "explore": "Зерттеу",
+      "bookings": "Бронирование"
+    },
+
+    "pending_timer": {
+      "minutes": "мин"
+    }
+  }
+}
